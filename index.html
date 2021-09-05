@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang=”en”>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Camera App</title> 
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <script src="app.js"></script>
+    <main id="camera" class="fullScreen">
+        <video id="camera--view" class="fullScreen mirrored" autoplay playsinline></video>
+        <canvas id="camera--sensor" class="fullScreen mirrored" ></canvas>
+        <img id="camera--output" class="fullScreen mirrored" alt="" src="//:0" >
+        <button id="camera--trigger">Take a picture</button>
+    </main>
+</body>
+</html>
